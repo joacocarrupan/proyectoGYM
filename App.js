@@ -1,10 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View  } from 'react-native';
+import Boton from "./proyecto/otrapag"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>xd</Text>
+      <Boton />
       <StatusBar style="auto" />
     </View>
   );
@@ -12,8 +14,8 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
+    flex: 5,
+    backgroundColor: '#FFC107',
     alignItems: 'center',
     justifyContent: 'center',
   },
